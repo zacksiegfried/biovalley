@@ -1,0 +1,121 @@
+2022-12-15 13:59:05 INFO::Writing function arguments to log file
+2022-12-15 13:59:05 DEBUG::Function arguments
+2022-12-15 13:59:05 DEBUG::Output folder: analysis/maaslin2_demo
+2022-12-15 13:59:05 DEBUG::Min Abundance: 0.000000
+2022-12-15 13:59:05 DEBUG::Min Prevalence: 0.100000
+2022-12-15 13:59:05 DEBUG::Normalization: NONE
+2022-12-15 13:59:05 DEBUG::Transform: LOG
+2022-12-15 13:59:05 DEBUG::Analysis method: LM
+2022-12-15 13:59:05 DEBUG::Max significance: 0.100000
+2022-12-15 13:59:05 DEBUG::Random effects:
+2022-12-15 13:59:05 DEBUG::Fixed effects:
+2022-12-15 13:59:05 DEBUG::Correction method: BH
+2022-12-15 13:59:05 DEBUG::Standardize: FALSE
+2022-12-15 13:59:05 DEBUG::Cores: 1
+2022-12-15 13:59:05 INFO::Verifying options selected are valid
+2022-12-15 13:59:05 INFO::Determining format of input files
+2022-12-15 13:59:05 INFO::Input format is data samples as rows and metadata samples as rows
+2022-12-15 13:59:05 DEBUG::A total of 48 samples were found in both the data and metadata
+2022-12-15 13:59:05 DEBUG::Reordering data/metadata to use same sample ordering
+2022-12-15 13:59:05 INFO::Formula for fixed effects: expr ~  group
+2022-12-15 13:59:05 INFO::Filter data based on min abundance and min prevalence
+2022-12-15 13:59:05 INFO::Total samples in data: 48
+2022-12-15 13:59:05 INFO::Min samples required with min abundance for a feature not to be filtered: 4.800000
+2022-12-15 13:59:05 INFO::Total filtered features: 0
+2022-12-15 13:59:05 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-12-15 13:59:05 INFO::Total filtered features with variance filtering: 0
+2022-12-15 13:59:05 INFO::Filtered feature names from variance filtering:
+2022-12-15 13:59:05 INFO::Running selected normalization method: NONE
+2022-12-15 13:59:05 INFO::Bypass z-score application to metadata
+2022-12-15 13:59:05 INFO::Running selected transform method: LOG
+2022-12-15 13:59:05 INFO::Running selected analysis method: LM
+2022-12-15 13:59:05 INFO::Fitting model to feature number 1, adrenic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 2, ALP..IU.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 3, alpha.linolenic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 4, ALT..IU.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 5, arachidic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 6, arachidonic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 7, AST..IU.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 8, behenic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 9, Beta.Hydroxybuterate..ug.mL.
+2022-12-15 13:59:05 INFO::Fitting model to feature number 10, Lab.results
+2022-12-15 13:59:05 INFO::Fitting model to feature number 11, cis.11.14.eicosaenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 12, cis.11.eicosaenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 13, cis.13.16.docosadienoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 14, Citric.Acid..ug.mL.
+2022-12-15 13:59:05 INFO::Fitting model to feature number 15, Creatinine.umol.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 16, dihomo.gamma.linolenic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 17, docosahexaenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 18, docosapentaenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 19, eicosapentaenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 20, eicosatetraenoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 21, Fasting.Glucose.mmol.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 22, Fumaric.Acid.ug.mL.
+2022-12-15 13:59:05 INFO::Fitting model to feature number 23, gamma.linolenic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 24, Leptin.ng.mL
+2022-12-15 13:59:05 INFO::Fitting model to feature number 25, lignoceric.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 26, linoleic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 27, Malic.Acid..ug.mL.
+2022-12-15 13:59:05 INFO::Fitting model to feature number 28, margaric.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 29, mead.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 30, Monounsaturated2
+2022-12-15 13:59:05 INFO::Fitting model to feature number 31, myristic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 32, myristoleic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 33, NEFA.mmol.L
+2022-12-15 13:59:05 INFO::Fitting model to feature number 34, nervonic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 35, oleic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 36, osbond.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 37, palmitic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 38, palmitoleic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 39, pentadecanoic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 40, Insulin..mU.L..y
+2022-12-15 13:59:05 INFO::Fitting model to feature number 41, Polyunsaturated3
+2022-12-15 13:59:05 INFO::Fitting model to feature number 42, Saturated1
+2022-12-15 13:59:05 INFO::Fitting model to feature number 43, stearic.acid
+2022-12-15 13:59:05 INFO::Fitting model to feature number 44, Triglycerides..mmol.L.
+2022-12-15 13:59:05 INFO::Counting total values for each feature
+2022-12-15 13:59:05 INFO::Writing residuals to file analysis/maaslin2_demo/residuals.rds
+2022-12-15 13:59:05 INFO::Writing fitted values to file analysis/maaslin2_demo/fitted.rds
+2022-12-15 13:59:05 INFO::Writing all results to file (ordered by increasing q-values): analysis/maaslin2_demo/all_results.tsv
+2022-12-15 13:59:05 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.100000 ) to file (ordered by increasing q-values): analysis/maaslin2_demo/significant_results.tsv
+2022-12-15 13:59:05 INFO::Writing heatmap of significant results to file: analysis/maaslin2_demo/heatmap.pdf
+2022-12-15 13:59:05 INFO::Writing association plots (one for each significant association) to output folder: analysis/maaslin2_demo
+2022-12-15 13:59:05 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-12-15 13:59:05 INFO::Plotting data for metadata number 1, group
+2022-12-15 13:59:05 INFO::Creating boxplot for categorical data, group vs Insulin..mU.L..y
+2022-12-15 13:59:05 INFO::Creating boxplot for categorical data, group vs Insulin..mU.L..y
+2022-12-15 13:59:05 INFO::Creating boxplot for categorical data, group vs Leptin.ng.mL
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs Leptin.ng.mL
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs palmitic.acid
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs Leptin.ng.mL
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs osbond.acid
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs Saturated1
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs mead.acid
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs pentadecanoic.acid
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs Lab.results
+2022-12-15 13:59:06 INFO::Creating boxplot for categorical data, group vs mead.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs stearic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs palmitic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs linoleic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs osbond.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs pentadecanoic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs osbond.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs adrenic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs Triglycerides..mmol.L.
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs oleic.acid
+2022-12-15 13:59:07 INFO::Creating boxplot for categorical data, group vs arachidonic.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs Lab.results
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs Saturated1
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs margaric.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs mead.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs palmitic.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs Lab.results
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs Fasting.Glucose.mmol.L
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs dihomo.gamma.linolenic.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs stearic.acid
+2022-12-15 13:59:08 INFO::Creating boxplot for categorical data, group vs adrenic.acid
+2022-12-15 13:59:09 INFO::Creating boxplot for categorical data, group vs Triglycerides..mmol.L.
+2022-12-15 13:59:09 INFO::Creating boxplot for categorical data, group vs Saturated1
+2022-12-15 13:59:09 INFO::Creating boxplot for categorical data, group vs Monounsaturated2
+2022-12-15 13:59:09 INFO::Creating boxplot for categorical data, group vs Malic.Acid..ug.mL.
+2022-12-15 13:59:09 INFO::Creating boxplot for categorical data, group vs arachidonic.acid
