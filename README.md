@@ -5,4 +5,3 @@ Bioinformatics tools and tutorials
 Generating clusters of microbiome populations using a distance matrix and metadata file <br />
 Run omeClust_demo.sh to produce demo results in an output folder <br />
 
-### pathway_analysis 
