@@ -1,4 +1,4 @@
-# bio_valley
+# bio-valley
 Bioinformatics tools and tutorials as well as various projects under construction
 
 ## microbiome_clustering
